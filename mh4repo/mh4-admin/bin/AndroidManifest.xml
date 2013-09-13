@@ -24,6 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.mh4.main.TestWindowActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_test_window"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
