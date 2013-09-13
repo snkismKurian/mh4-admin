@@ -13,17 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.mh4.main.MH4Activity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name="com.mh4.main.TestWindowActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:label="@string/title_activity_test_window" android:theme="@style/FullscreenTheme">
         </activity>
+        
     </application>
 
 </manifest>
